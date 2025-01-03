@@ -1,6 +1,7 @@
 import { CreateBookUseCase } from '../../src/application/use-cases/create-book-use-case';
 import { BookRepository } from '../../src/application/repositories/book-repository';
 
+
 const bookRepositoryMock = {
   save: jest.fn()
 };

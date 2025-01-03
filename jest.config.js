@@ -5,5 +5,6 @@ module.exports = {
     "^.+\\.tsx?$": "ts-jest",
   },
   moduleDirectories: ['node_modules'], //  garantir que o Jest procure corretamente em node_modules
+  // testTimeout: 1000000,
 };
 

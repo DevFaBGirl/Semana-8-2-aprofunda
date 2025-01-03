@@ -2,6 +2,7 @@ import { randomUUID } from "crypto"
 import { BookRepository } from "../../src/application/repositories/book-repository"
 import { ListAllBooksUseCase } from "../../src/application/use-cases/list-all-books-use-case"
 
+
 describe('ListBookUseCase', () => {
     let listAllBookUseCase: ListAllBooksUseCase
     let mockBookRepository: BookRepository = {

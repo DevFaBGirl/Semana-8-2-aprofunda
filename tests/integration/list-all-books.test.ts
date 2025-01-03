@@ -1,4 +1,11 @@
-import { BookModel } from '../../src/infrastructure/database/mongo-db/models/books'; // Ajuste o caminho conforme sua estrutura
+import { BookModel } from 
+'../../src/infrastructure/database/mongo-db/model'; // Ajuste o caminho conforme sua estrutura
+
+//  você não tem Bookmodel em model/books mas sim em model apenas, porquue BookModel você esta exportando 
+// model.ts
+// era só isso? extamente :) Puta que pariu!
+// faz parte :3
+// Vou rodar
 
 beforeEach(async () => {
   await BookModel.deleteMany({});
