@@ -57,20 +57,6 @@ Foram desenvolvidos testes unitários e de integração para validar os principa
       └── update-book-use-case.test.ts 
 ```
 
-## 🚀 Instalação e Configuração
-
-1. Clone o repositório:  
-   ```bash
-   git clone https://github.com/DevFaBGirl/Semana-8-2-aprofunda.git
-   ```
-2. Instale as dependências:  
-   ```bash
-   npm install
-   ```
-3. Execute os testes:  
-   ```bash
-   npm run test
-   ```
 
 ## 📸 Resultados dos Testes
 
@@ -86,3 +72,19 @@ Foram desenvolvidos testes unitários e de integração para validar os principa
 ### Print 3  ⏬
 ![Sucesso dos Testes de Integração](./assets/integration-tests-success-3.jpg)
 
+
+
+## 🚀 Instalação e Configuração
+
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/DevFaBGirl/Semana-8-2-aprofunda.git
+   ```
+2. Instale as dependências:  
+   ```bash
+   npm install
+   ```
+3. Execute os testes:  
+   ```bash
+   npm run test
+   ```
